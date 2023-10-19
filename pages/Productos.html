@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nuestros Productos | Shinobi World</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <script
+      src="https://kit.fontawesome.com/72d0c50021.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+  </head>
+  <body>
+    <header class="header continer-fluid sticky-top">
+      <div class="padreNavHeader">
+        <div class="logoPrincipal">
+          <a href="../index.html">
+            <img
+              class="logo"
+              src="../assets/img/Logo_principal.jpg"
+              alt="Logo del local"
+            />
+          </a>
+        </div>
+        <nav class="navHeader">
+          <ul class="listaNav">
+            <li class="box"><a href="../index.html">Inicio</a></li>
+            <li class="box">
+              <a href="./Nosotros.html">Presentación</a>
+            </li>
+            <li class="box">
+              <a href="#">Productos</a>
+            </li>
+            <li class="box">
+              <a href="./Galeria.html">Galería</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main container">
+      <section>
+        <input
+          id="buscador"
+          type="text"
+          placeholder="Busque aqui su producto"
+        />
+      </section>
+      <section class="mt-4">
+        <ul>
+          <li
+            type="button"
+            class="btn btn-light btnCategoria seleccionado"
+            data-categoria="Todos"
+          >
+            Todos
+          </li>
+          <li
+            type="button"
+            class="btn btn-light btnCategoria categorias"
+            data-categoria="Figuras de coleccion"
+          >
+            Figuras de coleccion
+          </li>
+          <li
+            type="button"
+            class="btn btn-light btnCategoria categorias"
+            data-categoria="Objetos de coleccion"
+          >
+            Objetos de coleccion
+          </li>
+          <li
+            type="button"
+            class="btn btn-light btnCategoria categorias"
+            data-categoria="Accesorios"
+          >
+            Accesorios
+          </li>
+          <li
+            type="button"
+            class="btn btn-light btnCategoria categorias"
+            data-categoria="Mangas"
+          >
+            Mangas
+          </li>
+          <li
+            type="button"
+            class="btn btn-light btnCategoria categorias"
+            data-categoria="Consolas y Videojuegos"
+          >
+            Consolas y Videojuegos
+          </li>
+        </ul>
+      </section>
+      <div class="d-flex">
+        <section class="seccion ocultar">
+          <h1>
+            <span id="cantidadProductos">0</span>
+          </h1>
+          <div id="scroll">
+            <div id="carrito"></div>
+          </div>
+          <h2>Total: $<span id="totalPagar">0</span></h2>
+          <a
+            href="#"
+            id="botonComprar"
+            class="btn btn-success btnComprar"
+            type="button"
+            >Comprar</a
+          >
+        </section>
+        <section
+          id="productos"
+          class="d-flex flex-wrap justify-content-center"
+        ></section>
+      </div>
+    </main>
+    <footer class="footer container-fluid">
+      <section class="d-flex justify-content-center">
+        <div class="">
+          <p class="piePagina fs-6">
+            Visítanos en nuestras redes sociales: <br />
+            <br />
+            <a target="_blank" href="https://www.whatsapp.com">
+              <i
+                class="fa-brands fa-whatsapp fa-2xl"
+                style="color: #ffffff"
+              ></i>
+            </a>
+            <a target="_blank" href="https://www.instagram.com">
+              <i
+                class="fa-brands fa-instagram fa-2xl"
+                style="color: #ffffff"
+              ></i>
+            </a>
+            <a target="_blank" href="https://www.facebook.com">
+              <i
+                class="fa-brands fa-facebook fa-2xl"
+                style="color: #ffffff"
+              ></i>
+            </a>
+          </p>
+        </div>
+        <div class="">
+          <p class="piePagina fs-6">
+            Nuestras formas de pago: <br />
+            <br />
+            <i class="fa-brands fa-paypal fa-xl" style="color: #ffffff"></i>
+            <i class="fa-brands fa-cc-visa fa-xl" style="color: #ffffff"></i>
+            <i
+              class="fa-brands fa-cc-mastercard fa-xl"
+              style="color: #ffffff"
+            ></i>
+          </p>
+        </div>
+        <div class="">
+          <p class="piePagina fs-6">
+            Aqui nos encontramos: <br />
+            <br />
+            <iframe
+              class=""
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.0359578132643!2d-57.54675452437769!3d-37.99962174468249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dc1adb62ab41%3A0x8bd1ed8446f6f223!2sSta.%20Fe%20%26%20Av.%20Pedro%20Luro%2C%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1692643036960!5m2!1ses-419!2sar"
+              width="200px"
+              height="100px"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </p>
+        </div>
+      </section>
+      <section class="d-flex justify-content-center">
+        <div class="">
+          <p class="piePagina fs-6">
+            &copy;<span id="year"></span> Dragon World. Todos los derechos
+            reservados.
+          </p>
+        </div>
+      </section>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="../js/carrito_dinamico.js"></script>
+  </body>
+</html>

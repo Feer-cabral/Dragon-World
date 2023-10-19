@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "imagen": "imagen_1.jpg",
+    "nombre": "Goku SSJ",
+    "descripcion": "Figura de coleccion de goku ssj de la saga de freezer",
+    "categoria": "Figuras de coleccion",
+    "precio": 25000
+  },
+  {
+    "id": 2,
+    "imagen": "imagen_2.webp",
+    "nombre": "Majin Vegeta SSJ 2",
+    "descripcion": "Figura de coleccion de vegeta ssj 2 de la saga de majin boo",
+    "categoria": "Figuras de coleccion",
+    "precio": 25000
+  },
+  {
+    "id": 3,
+    "imagen": "imagen_3.jpg",
+    "nombre": "Trunks SSJ",
+    "descripcion": "Figura de coleccion de trunks ssj de la saga de los androides",
+    "categoria": "Figuras de coleccion",
+    "precio": 25000
+  },
+  {
+    "id": 4,
+    "imagen": "imagen_4 (2).avif",
+    "nombre": "Mochila Goku Symbol",
+    "descripcion": "Mochila de tres bolsillos Goku Symbol",
+    "categoria": "Accesorios",
+    "precio": 12000
+  },
+  {
+    "id": 5,
+    "imagen": "imagen_5.jpg",
+    "nombre": "Mangas Dragon Ball Super",
+    "descripcion": "Mangas de dragon ball super, desde el volumen 1 al volumen 5",
+    "categoria": "Mangas",
+    "precio": 16000
+  },
+  {
+    "id": 6,
+    "imagen": "imagen_6.webp",
+    "nombre": "Llaveros Cell Skin",
+    "descripcion": "Llavero de coleccion de dragon ball z, con la imagen de cell",
+    "categoria": "Accesorios",
+    "precio": 2500
+  },
+  {
+    "id": 7,
+    "imagen": "imagen_7.png",
+    "nombre": "Radar del Dragon",
+    "descripcion": "Radar del dragon de coleccion, tamaño real, incluye ambas pilas",
+    "categoria": "Objetos de coleccion",
+    "precio": 19000
+  },
+  {
+    "id": 8,
+    "imagen": "imagen_8.webp",
+    "nombre": "Esfera del Dragon",
+    "descripcion": "Esfera del dragon de coleccion, tamaño real",
+    "categoria": "Objetos de coleccion",
+    "precio": 13000
+  },
+  {
+    "id": 9,
+    "imagen": "imagen_9.jpg",
+    "nombre": "Shenlong",
+    "descripcion": "Figura de coleccion de shenlong",
+    "categoria": "Figuras de coleccion",
+    "precio": 15000
+  },
+  {
+    "id": 10,
+    "imagen": "imagen_10.webp",
+    "nombre": "Sony Play Station 4",
+    "descripcion": "Consola play station 4, con ambos joystick y sus respectivos cables",
+    "categoria": "Consolas y Videojuegos",
+    "precio": 500000
+  },
+  {
+    "id": 11,
+    "imagen": "imagen_11.jpg",
+    "nombre": "Manga Dragon Ball Super",
+    "descripcion": "Manga de Dragon Ball Super, saga de Moro (Volumen 13)",
+    "categoria": "Mangas",
+    "precio": 3500
+  },
+  {
+    "id": 12,
+    "imagen": "imagen_12.webp",
+    "nombre": "PS4 Dragon Ball Z Kakarot",
+    "descripcion": "Videojuego para la consola play station 4, Dragon Ball Z Kakarot",
+    "categoria": "Consolas y Videojuegos",
+    "precio": 30000
+  }
+]
