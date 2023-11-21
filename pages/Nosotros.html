@@ -16,6 +16,11 @@
       src="https://kit.fontawesome.com/72d0c50021.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header class="header continer-fluid sticky-top">
@@ -47,15 +52,17 @@
     </header>
     <main class="main container">
       <section>
-        <h1 class="tituloPrincipal mt-4">Te damos la bienvenida!!</h1>
+        <h1 class="tituloPrincipal mt-4 animate__animated animate__bounceIn">
+          Te damos la bienvenida!!
+        </h1>
         <img
-          class="d-block mx-auto my-4 rounded border border-black border-4"
+          class="d-block mx-auto my-4 rounded border border-black border-4 animate__animated animate__fadeIn"
           src="../assets/img/Presentacion.jpg"
           alt="Imagen de goku"
           width="900"
           height="500"
         />
-        <p class="tamanioParrafo m-5">
+        <p class="tamanioParrafo m-5" data-aos="zoom-in">
           Somos un local destinado a ofrecerte los mejores productos de tu anime
           favorito, las mismas pueden variar e ir desde figuras de colección,
           accesorios, mangas entre otros productos de excelente calidad.
@@ -138,5 +145,9 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -21,6 +21,11 @@
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header class="header continer-fluid sticky-top">
@@ -54,11 +59,12 @@
       <section>
         <input
           id="buscador"
+          class="animate__animated animate__shakeX"
           type="text"
           placeholder="Busque aqui su producto"
         />
       </section>
-      <section class="mt-4">
+      <section class="mt-4 animate__animated animate__zoomIn">
         <ul>
           <li
             type="button"
@@ -204,6 +210,10 @@
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/toastify-js"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="../js/carrito_dinamico.js"></script>
   </body>
 </html>

@@ -16,6 +16,11 @@
       src="https://kit.fontawesome.com/72d0c50021.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header class="header continer-fluid sticky-top">
@@ -47,13 +52,13 @@
     </header>
     <main class="main container-fluid">
       <section>
-        <p class="tamanioParrafo mt-5">
+        <p class="tamanioParrafo mt-5" data-aos="zoom-in">
           A continuación una imperdible galería de fotos para que conozcas
           nuestro espacio.
         </p>
       </section>
       <section class="d-flex flex-wrap justify-content-center">
-        <div class="imagen-galeria m-5">
+        <div class="imagen-galeria m-5 animate__animated animate__flip">
           <img
             class="rounded-top border border-primary border-4"
             src="../assets/img/Imagen-galeria-1.jpg"
@@ -62,7 +67,7 @@
             height="200"
           />
         </div>
-        <div class="imagen-galeria m-5">
+        <div class="imagen-galeria m-5 animate__animated animate__flip">
           <img
             class="rounded-top border border-primary border-4"
             src="../assets/img/Imagen-galeria-2.jpg"
@@ -71,7 +76,7 @@
             height="200"
           />
         </div>
-        <div class="imagen-galeria m-5">
+        <div class="imagen-galeria m-5 animate__animated animate__flip">
           <img
             class="rounded-top border border-primary border-4"
             src="../assets/img/Imagen-galeria-3.jpg"
@@ -80,7 +85,7 @@
             height="200"
           />
         </div>
-        <div class="imagen-galeria m-5">
+        <div class="imagen-galeria m-5 animate__animated animate__flip">
           <img
             class="rounded-top border border-primary border-4"
             src="../assets/img/Imagen-galeria-4.jpg"
@@ -89,7 +94,7 @@
             height="200"
           />
         </div>
-        <div class="imagen-galeria m-5">
+        <div class="imagen-galeria m-5 animate__animated animate__flip">
           <img
             class="rounded-top border border-primary border-4"
             src="../assets/img/Imagen-galeria-5.jpg"
@@ -172,5 +177,9 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

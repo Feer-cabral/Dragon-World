@@ -170,7 +170,7 @@ function cargarProductos(productos) {
 
   for (const producto of productos) {
     divProductos.innerHTML += `
-        <section id="productos" class="d-flex flex-wrap justify-content-center">
+        <section id="productos" class="d-flex flex-wrap justify-content-center" data-aos="fade-up">
           <div class="card m-4" style="width: 18rem">
             <img src="../assets/img/${producto.imagen}" alt=${producto.nombre} />
             <div class="card-body">

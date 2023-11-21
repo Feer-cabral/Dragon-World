@@ -16,6 +16,11 @@
       src="https://kit.fontawesome.com/72d0c50021.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header class="header continer-fluid sticky-top">
@@ -46,12 +51,14 @@
       </div>
     </header>
     <main class="main container">
-      <h1 class="tituloPrincipal mt-5">Dragon World</h1>
-      <h2 class="text-center m-5">
+      <h1 class="tituloPrincipal mt-5 animate__animated animate__bounceIn">
+        Dragon World
+      </h1>
+      <h2 class="text-center m-5 animate__animated animate__slideInDown">
         Venta de accesorios del mejor anime de todos los tiempos !
       </h2>
       <div>
-        <p class="tamanioParrafo m-4">
+        <p class="tamanioParrafo m-4 animate__animated animate__zoomIn">
           Bienvenidos a Dragon World!! Un espacio destinado a brindarte el mejor
           contenido de tu anime favorito, sigue navegando y entérate en que
           consiste nuestro trabajo. Conóce nuestro local y visítanos cuando
@@ -59,11 +66,15 @@
         </p>
       </div>
       <div>
-        <p class="tamanioParrafo m-4">
+        <p class="tamanioParrafo m-4 animate__animated animate__zoomIn">
           Figuras de colección, accesorios, mangas y mucho más!!
         </p>
       </div>
-      <div id="carouselExampleFade" class="carousel slide carousel-fade m-5">
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade m-5"
+        data-aos="flip-left"
+      >
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
@@ -206,5 +217,9 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
